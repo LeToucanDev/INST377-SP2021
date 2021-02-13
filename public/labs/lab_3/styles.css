@@ -31,6 +31,6 @@
   }
   
   .arrow:hover {
-    background: rgb(158, 23, 140);
+    color: rgb(233, 146, 221);
     cursor: pointer;
   }
