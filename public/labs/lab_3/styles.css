@@ -1,2 +1,36 @@
 /* Add some css styles based on the tutorial at javascript.info: introduction to browser events
  https://javascript.info/introduction-browser-events */
+ body{
+     background-color: rgb(170, 38, 126);
+     position:relative;
+ }
+
+ .carousel{     
+    display: inline-flex;
+    height: auto;
+    width: auto;
+     margin-left: 37.5%;
+     background-color: antiquewhite;
+     
+ }
+
+
+ .arrow {
+    padding: 0;
+    background: antiquewhite;
+    border-radius: 1px;
+    border: 0px solid gray;
+    font-size: 24px;
+    line-height: 24px;
+    color: #444;
+    display: block;
+  }
+  
+  .arrow:focus {
+    outline: none;
+  }
+  
+  .arrow:hover {
+    background: rgb(158, 23, 140);
+    cursor: pointer;
+  }
