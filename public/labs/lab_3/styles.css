@@ -29,6 +29,9 @@
   .arrow:focus {
     outline: none;
   }
+  #img1, #img2, #img3{
+    transition: src 0.8s ease-in-out;
+  }
   
   .arrow:hover {
     color: rgb(233, 146, 221);

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baldric Nguena-Papdo Lab 4</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form method="post" action="/api">
+      <ul class="flex-outer">
+          <h1>Baldric Nguena-Papdo Lab 4</h1>
+          <li>
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname" placeholder="Enter your first name here" >
+          </li>
+          <li>
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname" placeholder="Enter your last name here">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" name = "email" id="email" placeholder="Enter your email here">
+          </li>
+          <li>
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone" placeholder="Enter your phone here">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea rows="6" name="message" cols="33" id="message" placeholder="Enter your message here"></textarea>
+          </li>
+          <li>
+            <p>Age</p>
+            <ul class="flex-inner">
+                <li>
+                    <input type="checkbox" name="children" id="children">
+                    <label for="children">00-19</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name= "child-adult" id="child-adult">
+                    <label for="child-adult">20-29</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="supposed-adult" id="supposed-adult">
+                    <label for="supposed-adult">30-39</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="adult" id="adult">
+                    <label for="adult">40-89</label>
+                  </li>
+            </ul>
+          </li>
+          <li>
+            <button type="submit" name= "sub-button" id="Sub-button">Submit</button>
+          </li>
+        </ul>
+      </form>
+    
+</body>
+</html>
