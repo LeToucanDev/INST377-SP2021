@@ -1,6 +1,6 @@
 body {
     font: normal 18px/1.5 "Fira Sans", "Helvetica Neue", sans-serif;
-    background: #3AAFAB;
+    background: #df2cd6;
     color: #fff;
     padding: 50px 0;
   }
@@ -20,8 +20,11 @@ body {
     list-style-type: none;
     padding: 0;
   }
+  h1{
+    text-align: center;
+  }
   
-  .flex-outer {
+  .flex-outer, h1 {
     max-width: 800px;
     margin: 0 auto;
   }

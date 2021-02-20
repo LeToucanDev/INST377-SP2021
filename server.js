@@ -44,7 +44,7 @@ app.route('/api')
     console.log('Form data in res.body', req.body);
     console.log('Now send something back to your client');
     console.log('firstname: ', req.body.fname);
-    res.send('Hello World')
+    res.send('Hello World');
     
   });
 
