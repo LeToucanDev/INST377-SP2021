@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <title>Amanda Yee and Baldric Nguena-Papdo Assignment 1</title>
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Allan&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>   
+    <style>
+        #mapid{
+            height:400px;
+        }
+        .container{ 
+     margin: 0 auto;
+     max-width: 960px;
+     min-height:1000px;
+    
+ }
+ .suggestions{
+     height: inherit;     
+ }
+
+input{
+    display: flex;
+    width: 30%; 
+}
+
+body, .suggestions{
+    background-image: linear-gradient(rgb(61, 54, 54), pink);
+}
+
+h1{
+    font-family: "Allan";
+}
+
+.box{
+    background-image: linear-gradient(rgb(5, 168, 86), rgb(75, 209, 131));
+}
+
+.name{
+    font-weight: bold;
+    font-size: 20px;
+}
+    </style>
+</head>
+
+
+<body>
+    <div class = "container">
+        <form class = "filter">
+            <div class = "column is-two-fifths">
+                <h1 class = "has-text-white is-size-3">Amanda and Baldric Assignment 1</h1>
+                <input type="text" class = "search" style="width: 100%;">
+                <div class = "suggestions">
+                </div>
+            </div>
+            <div id="mapid"></div>
+        </form>
+        
+    </div>
+</body>    
+
+</html>
